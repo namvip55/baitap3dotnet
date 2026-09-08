@@ -1,5 +1,13 @@
 using System;
-
+/**Mục tiêu:** Áp dụng vòng lặp `for`/`while`
+**Yêu cầu (Requirements):**
+  1. Nhập vào số nguyên dương N.
+  2. Viết hàm `IsPrime(int n)` kiểm tra N có phải Số Nguyên Tố không
+  3. Viết hàm `IsPerfectNumber(int n)` kiểm tra N có phải Số Hoàn Hảo không
+  4. In ra N số đầu tiên của dãy số Fibonacci.
+**TestCases Kiểm thử:**
+  - Input: N = 6.
+  - Output: 6 là Số hoàn hảo! 6 KHÔNG là Số nguyên tố. Dãy Fibonacci 6 số: `0, 1, 1, 2, 3, 5`.*/
 class Program
 {
     static bool IsPrime(int n)

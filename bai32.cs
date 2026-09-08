@@ -1,5 +1,13 @@
 using System;
-
+/*Mục tiêu: Vận dụng cấu trúc rẽ nhánh if-else if-else đầy đủ, thư viện Math.Sqrt().
+Yêu cầu:
+Nhập 3 hệ số a, b, c (double).
+Xử lý trường hợp a=0 (Phương trình trở thành bậc nhất bx+c=0).
+Khi a # 0, tính Δ=b2−4ac: tìm nghiệm.
+TestCases Kiểm thử:
+ a=1,b=−3,c=2→x1​=2.00,x2​=1.00.
+ a=1,b=−2,c=1→ Nghiệm kép x=1.00.
+ a=1,b=1,c=1→ Vô nghiệm.*/
 class Program
 {
     static void Main()
